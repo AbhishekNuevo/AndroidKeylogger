@@ -17,7 +17,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
- * Created by Abhishek on 27-Feb-17.
+ * Created by Abhishek on 26-June-17.
  */
 
 public class GMailSender extends javax.mail.Authenticator {

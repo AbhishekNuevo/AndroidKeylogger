@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Created by Abhishek on 27-Feb-17.
+ * Created by Abhishek on 27-June-17.
  */
 
 public class BackService extends Service {
@@ -40,7 +40,7 @@ public class BackService extends Service {
                   public void run() {
                       try {
                           GMailSender sender = new GMailSender("nuevothoughts.abhishek@gmail.com",
-                                  "9795563116");
+                                  "**********");
                          // sender.sendMail("Hello from JavaMail", "Body from JavaMail", "nuevothoughts.abhishek@gmail.com", "nuevothoughts.abhishek@gmail.com");
                       } catch (Exception e) {
                           Log.e("SendMail", e.getMessage(), e);
