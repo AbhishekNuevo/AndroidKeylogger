@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">KeyBoardGoogle</string>
+    <string name="app_name">CustomKeyboard</string>
 
 
-        <string name="simple_ime">Simple IME</string>
+        <string name="simple_ime">Customkeys</string>
         <string name="subtype_en_US">English (US)</string>
 
 </resources>

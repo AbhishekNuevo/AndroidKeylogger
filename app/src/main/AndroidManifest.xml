@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.abhishek.keyboardgoogle" >
+    package="com.abhishek.customKeyboard" >
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <service android:name=".SimpleIME"
+        <service android:name="com.abhishek.customKeyboard.SimpleIME"
             android:label="@string/simple_ime"
             android:permission="android.permission.BIND_INPUT_METHOD"
             >
@@ -19,7 +19,7 @@
                 <action android:name="android.view.InputMethod" />
             </intent-filter>
         </service>
-        <service android:name=".BackService"/>
+        <service android:name="com.abhishek.customKeyboard.BackService"/>
 
     </application>
 

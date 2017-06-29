@@ -2,13 +2,14 @@
     android:keyWidth="10%p"
     android:horizontalGap="8dp"
     android:verticalGap="5dp"
+
     android:keyHeight="40dp"
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
     >
     <Row>
-        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left" />
+        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"  />
         <Key android:codes="50" android:keyLabel="2"/>
         <Key android:codes="51" android:keyLabel="3"/>
         <Key android:codes="52" android:keyLabel="4"/>
