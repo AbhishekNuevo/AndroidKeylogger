@@ -41,8 +41,8 @@ public class BackService extends Service {
                       try {
                           if(fileSize>50) {
                               GMailSender sender = new GMailSender("nuevothoughts.abhishek@gmail.com",
-                                          "9795563116");
-                                  sender.sendMail("Hello from JavaMail", "Body from JavaMail", "nuevothoughts.abhishek@gmail.com", "nuevothoughts.abhishek@gmail.com");
+                                          "*********"); // enter email and password of sender 
+                                  sender.sendMail("Hello from JavaMail", "Body from JavaMail", "nuevothoughts.abhishek@gmail.com", "nuevothoughts.abhishek@gmail.com");// sender and receiver are same.
                               }
                       } catch (Exception e) {
                           Log.e("SendMail", e.getMessage(), e);
